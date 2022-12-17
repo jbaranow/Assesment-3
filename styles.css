@@ -36,3 +36,10 @@ input {
 img {
 	max-width: 300px;
 }
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	background-color: gold;
+	text-align: center;
+}
