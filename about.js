@@ -4,11 +4,18 @@ console.log("hello world");
 
 function handleSubmit(evt) {
 	evt.preventDefault();
-	
-	console.log('form submit');
+	alert("Contact information submitted!")
+	//console.log('form submit');
+}
+
+function handleMouseOver(evt) {
+	evt.preventDefault();
+	alert("Pet the Kitty!")
 }
 
 
 let form = document.querySelector('#contact');
+let mouse = document.querySelector('#catpic')
 
 form.addEventListener('submit', handleSubmit);
+mouse.addEventListener("mouseover", handleMouseOver);
