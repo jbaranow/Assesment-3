@@ -1,8 +1,14 @@
+const food = ["http://www.avenuesproper.com/", "https://cucinawinebar.com/", "https://www.saffronvalley.com/saffron-colonial-downtown-slc-indian-restaurant-utah", "https://cafe-shambala.business.site/?utm_source=gmb&utm_medium=referral"];
+
+const random = Math.floor(Math.random() * food.length);
+
+
+
 function randomResturant(evt) {
     evt.preventDefault();
-    alert('website')
+    alert(random[random])
 }
 
-let food = document.querySelector('#random-resturant');
+let foodButton = document.querySelector('#random-resturant');
 
-food.addEventListener('click', randomResturant);
+foodButton.addEventListener('click', randomResturant);
