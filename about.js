@@ -5,7 +5,8 @@ console.log("hello world");
 function handleSubmit(evt) {
 	evt.preventDefault();
 	alert("Contact information submitted!")
-	//console.log('form submit');
+	//console.log('#contact');
+	form.reset();
 }
 
 function handleMouseOver(evt) {
