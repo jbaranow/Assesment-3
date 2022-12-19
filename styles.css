@@ -43,3 +43,19 @@ img {
 	background-color: gold;
 	text-align: center;
 }
+
+.buttons {
+	background-color: yellow;
+	color: red;
+	font-size: 18px;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+.buttons:hover {background-color: #3e8e41}
+
+/*.button:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+  }*/
