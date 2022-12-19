@@ -6,7 +6,8 @@ const random = Math.floor(Math.random() * food.length);
 
 function randomResturant(evt) {
     evt.preventDefault();
-    alert(random[random])
+    alert(food[random])
+    //document.getElementById('random-resturant').innerHTML=random;
 }
 
 let foodButton = document.querySelector('#random-resturant');
