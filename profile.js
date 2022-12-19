@@ -3,7 +3,7 @@ function colorClick(evt) {
     alert("Green")
 }
 
-function palceClick(evt) {
+function placeClick(evt) {
     evt.preventDefault();
     alert("Oregon")
 }
@@ -18,5 +18,5 @@ let click2 = document.querySelector('#place')
 let click3 = document.querySelector('#ritual')
 
 click.addEventListener('click', colorClick)
-click2.addEventListener('click', palceClick)
+click2.addEventListener('click', placeClick)
 click3.addEventListener('click', ritualClick)
